@@ -1,0 +1,15 @@
+<circuit version="1.1.0-SR2" rev="260312" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-28,-76" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="led_message_display/led_message_display.ino.standard.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Max72xx_matrix" CircId="Max72xx_matrix-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-252,-204" rotation="0" hflip="1" vflip="1" label="Max72xx_matrix-2" idLabPos="-32,-58" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="4" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Max72xx_matrix-2PinSck" endpinid="Uno-1-13" pointList="-280,-152,-280,52,-20,52" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Max72xx_matrix-2PinDin" endpinid="Uno-1-11" pointList="-272,-152,-272,36,-20,36" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Max72xx_matrix-2PinCS" endpinid="Uno-1-10" pointList="-264,-152,-264,28,-20,28" />
+
+</circuit>
